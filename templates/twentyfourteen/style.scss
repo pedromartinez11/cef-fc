@@ -1,3 +1,5 @@
+@import "css/colors";
+
 /*
 Theme Name: Twenty Fourteen
 Theme URI: http://wordpress.org/themes/twentyfourteen
@@ -116,7 +118,7 @@ body {
 }
 
 a {
-	color: #24890d;
+	color: $main-text; // hello
 	text-decoration: none;
 }
 
@@ -462,13 +464,13 @@ hr {
  * to achieve a better experience. See http://core.trac.wordpress.org/ticket/25898.
  */
 ::selection {
-	background: #24890d;
+	background: $main-text;
 	color: #fff;
 	text-shadow: none;
 }
 
 ::-moz-selection {
-	background: #24890d;
+	background: $main-text;
 	color: #fff;
 	text-shadow: none;
 }
@@ -506,7 +508,7 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	background-color: #24890d;
+	background-color: $main-text;
 	border: 0;
 	border-radius: 2px;
 	color: #fff;
@@ -881,7 +883,7 @@ span + .edit-link:before,
 /* Search in the header */
 
 .search-toggle {
-	background-color: #24890d;
+	background-color: $main-text;
 	cursor: pointer;
 	float: right;
 	height: 48px;
@@ -1353,7 +1355,7 @@ a.post-thumbnail:hover {
 }
 
 .hentry .mejs-controls .mejs-time-rail .mejs-time-current {
-	background: #24890d;
+	background: $main-text;
 }
 
 .hentry .mejs-controls .mejs-time-rail .mejs-time-total,
@@ -1440,7 +1442,7 @@ a.post-thumbnail:hover {
 }
 
 .hentry .mejs-overlay:hover .mejs-overlay-button {
-	background-color: #24890d;
+	background-color: $main-text;
 	color: #fff;
 }
 
@@ -1723,7 +1725,7 @@ a.post-thumbnail:hover {
 }
 
 .paging-navigation .page-numbers.current {
-	border-top: 5px solid #24890d;
+	border-top: 5px solid $main-text;
 }
 
 .paging-navigation a:hover {
@@ -2350,7 +2352,7 @@ a.post-thumbnail:hover {
 .widget input[type="button"],
 .widget input[type="reset"],
 .widget input[type="submit"] {
-	background-color: #24890d;
+	background-color: $main-text;
 	border: 0;
 	font-size: 12px;
 	padding: 5px 15px 4px;
@@ -2419,7 +2421,7 @@ a.post-thumbnail:hover {
 }
 
 .widget_calendar tbody a {
-	background-color: #24890d;
+	background-color: $main-text;
 	color: #fff;
 	display: block;
 }
@@ -2587,7 +2589,7 @@ a.post-thumbnail:hover {
  */
 
 .content-sidebar .widget a {
-	color: #24890d;
+	color: $main-text;
 }
 
 .content-sidebar .widget a:hover {
@@ -2653,7 +2655,7 @@ a.post-thumbnail:hover {
 .content-sidebar .widget input[type="button"],
 .content-sidebar .widget input[type="reset"],
 .content-sidebar .widget input[type="submit"] {
-	background-color: #24890d;
+	background-color: $main-text;
 	border: 0;
 	color: #fff;
 }
@@ -2978,7 +2980,7 @@ a.post-thumbnail:hover {
 
 .slider-control-paging .slider-active:before,
 .slider-control-paging .slider-active:hover:before {
-	background-color: #24890d;
+	background-color: $main-text;
 }
 
 .slider-direction-nav {
@@ -3014,7 +3016,7 @@ a.post-thumbnail:hover {
 }
 
 .slider-direction-nav a:hover {
-	background-color: #24890d;
+	background-color: $main-text;
 }
 
 .slider-direction-nav a:before {
@@ -3510,7 +3512,7 @@ a.post-thumbnail:hover {
 	}
 
 	.primary-navigation ul ul {
-		background-color: #24890d;
+		background-color: $main-text;
 		float: left;
 		margin: 0;
 		position: absolute;
@@ -3539,7 +3541,7 @@ a.post-thumbnail:hover {
 
 	.primary-navigation li:hover > a,
 	.primary-navigation li.focus > a {
-		background-color: #24890d;
+		background-color: $main-text;
 		color: #fff;
 	}
 
@@ -3765,7 +3767,7 @@ a.post-thumbnail:hover {
 	}
 
 	.secondary-navigation ul ul {
-		background-color: #24890d;
+		background-color: $main-text;
 		position: absolute;
 		top: 0;
 		left: -999em;
@@ -3779,7 +3781,7 @@ a.post-thumbnail:hover {
 
 	.secondary-navigation li:hover > a,
 	.secondary-navigation li.focus > a {
-		background-color: #24890d;
+		background-color: $main-text;
 		color: #fff;
 	}
 
