@@ -1,3 +1,5 @@
+@import "colors";
+
 /*
 Theme Name: Twenty Fourteen
 Description: Used to style the TinyMCE editor.
@@ -277,12 +279,12 @@ hr {
  */
 
 a {
-	color: #24890d;
+	color: $main-text;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #24890d;
+	color: $main-text;
 }
 
 a:focus {
@@ -599,7 +601,7 @@ img {
 }
 
 .mejs-controls .mejs-time-rail .mejs-time-current {
-	background: #24890d;
+	background: $main-text;
 }
 
 .mejs-controls .mejs-time-rail .mejs-time-total,
@@ -682,7 +684,7 @@ img {
 }
 
 .mejs-overlay:hover .mejs-overlay-button {
-	background-color: #24890d;
+	background-color: $main-text;
 	color: #fff;
 }
 
