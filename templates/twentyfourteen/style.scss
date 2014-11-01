@@ -966,7 +966,7 @@ span + .edit-link:before,
 .site-navigation .current_page_ancestor > a,
 .site-navigation .current-menu-item > a,
 .site-navigation .current-menu-ancestor > a {
-	color: #55d737;
+	color: $site-nav-current-item;
 	font-weight: 900;
 }
 
