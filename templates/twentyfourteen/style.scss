@@ -883,18 +883,21 @@ span + .edit-link:before,
 /* Search in the header */
 
 .search-toggle {
-	background-color: $main-text;
+	background-color: $search-btn-bg;
 	cursor: pointer;
 	float: right;
 	height: 48px;
 	margin-right: 38px;
 	text-align: center;
 	width: 48px;
-}
 
-.search-toggle:hover,
-.search-toggle.active {
-	background-color: #41a62a;
+	&:hover {
+		background-color: $search-btn-hover-bg;
+	}
+
+	&:active {
+		background-color: $active-color-btn;
+	}
 }
 
 .search-toggle:before {
@@ -920,7 +923,7 @@ span + .edit-link:before,
 }
 
 .search-box {
-	background-color: #41a62a;
+	background-color: $search-box-bg;
 	padding: 12px;
 }
 
