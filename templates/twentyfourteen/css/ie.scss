@@ -434,7 +434,7 @@ a.post-thumbnail:hover {
 
 .ie8 .primary-navigation ul ul a:hover,
 .ie8 .primary-navigation ul ul li.focus > a {
-	background-color: #41a62a;
+	background-color: $link-hover;
 }
 
 .ie8 .primary-navigation ul li:hover > ul,
@@ -608,7 +608,7 @@ a.post-thumbnail:hover {
 
 .ie8 .secondary-navigation ul ul a:hover,
 .ie8 .secondary-navigation ul ul li.focus > a {
-	background-color: #41a62a;
+	background-color: $link-hover;
 }
 
 .ie8 .secondary-navigation ul li:hover > ul,
@@ -1009,7 +1009,7 @@ a.post-thumbnail:hover {
 }
 
 .ie7 .slider-control-paging .slider-active {
-	color: #41a62a;
+	color: $link-hover;
 }
 
 .ie7 .slider-direction-nav {
@@ -1029,7 +1029,7 @@ a.post-thumbnail:hover {
 
 .ie7 .slider-direction-nav a:hover {
 	background-color: #000;
-	color: #41a62a;
+	color: $link-hover;
 }
 
 .ie7 .search-toggle {

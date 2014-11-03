@@ -293,7 +293,7 @@ a:focus {
 
 a:active,
 a:hover {
-	color: #41a62a;
+	color: $link-hover;
 	outline: 0;
 }
 
@@ -689,7 +689,7 @@ img {
 }
 
 .mejs-controls .mejs-button button:hover {
-	color: #41a62a;
+	color: $link-hover;
 }
 
 
